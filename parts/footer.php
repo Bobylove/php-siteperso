@@ -1,1 +1,3 @@
-put some footer here
+<h3>Footer ICI</h3>
+</body>
+</html>
