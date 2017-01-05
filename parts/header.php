@@ -5,9 +5,12 @@ include "menu.php";
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="./public/style.css">
+	<title>EmonSite</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	
-<h1>HEADER ICI</h1>
+	<div class="head">
+		<h1>Titre site perso</h1>
+		<h4>Delon Frédéric</h4>
+	</div>
