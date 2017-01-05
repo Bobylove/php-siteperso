@@ -9,7 +9,7 @@ Le contenu du site est libre, cependant il est conseillé de commencer à réfl�
 Instructions détaillées
 ---
 
-1. **Forkez** ce *repo* puis **clônez le** sur votre macine
+1. **Forkez** ce *repo* puis **clônez le** sur votre machine
 2. Créez le contenu des pages `header.php`, `footer.php`, `menu.php` et `home.php`
 	- `header.php` doit lier le fichier `style.css` et inclure le fichier `menu.php` qui contient le menu du site
 	- `footer.php` doit lier le fichier `app.js`
