@@ -25,7 +25,20 @@ function getUserData(){
 	$jsonFile = '../data/user.json';
 	$jsonData = file_get_contents($jsonFile);
 	$result = json_decode($jsonData,true);
-	$trad = implode(" ", $result);
-	echo $trad;
+	var_dump($result);
+	return $result;
 
 }
+function putUserData(){
+	$prenom = $_POST['prenom']; 
+	var_dump($prenom);
+	$nom = $_POST['nom']; 
+	$entreprise = $_POST['entreprise'];
+	$jsonFiles = '../data/Last_message.json';
+	$json = file_get_contents($jsonFiles);
+	$resulta = json_decode($json, true);
+	$data[""] = array_push($resulta, $prenom);
+	file_put_contents($jsonFiles, json_encode($data));
+
+}
+

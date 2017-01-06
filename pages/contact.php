@@ -1,18 +1,21 @@
 <div class="contact">
 	<h3>Contact ici</h3>
-	<form action="save.php" method="POST">
+	<form action="save.php" method="post">
 		<label for="name"> Prénom
-			<input type="text" placeholder="jean" id="name" value="">
+			<input name="prenom" type="text" placeholder="jean" id="name" value="jean">
 		</label>
 		<label for="firstName"> Nom
-			<input type="text" placeholder="dupont" id="firstName" value="">
+			<input name="nom" type="text" placeholder="dupont" id="firstName" value="dupont">
 		</label>
 		<label for="Entreprise"> Entreprise
-			<input type="text" placeholder="simplon" id="Entreprise" value="">
+			<input name="entreprise" type="text" placeholder="simplon" id="Entreprise" value="simplon">
 		</label>
 		<!-- <label for="experience"> Experience
 			<input type="text" placeholder="exp" id="experience">
 		</label> -->
-		<button class="save">Save</button>
+		<label for="envoie">
+			<input type="submit" class="save" id="envoie">
+		</label>
+
 	</form>
 </div>
