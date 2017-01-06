@@ -12,5 +12,9 @@ error_reporting(E_ALL);
 require __DIR__ . '/../lib/functions.php';
 
 // l'exemple avec le header, à vous de jouer pour le reste
+
+getPart('menu');
 getPart('header');
+getContent();
+getPart('footer');
 
